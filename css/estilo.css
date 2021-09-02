@@ -1,0 +1,869 @@
+
+*{margin:0;padding:0;}
+
+html{
+    background-color: #FFFACD;
+}
+
+body{
+    width: 750px; 
+    height: 750px; 
+    margin: auto;
+    background-color: black;
+}
+
+
+header{
+    width: 750px;
+    height: 250px ;
+    background-color: teal;
+    
+}
+
+nav{
+    width: 750px;
+    height: 80px ;
+    
+    background: linear-gradient(teal,#CDC9A5);
+}
+
+main{
+    width: 750px;
+    height: 400px ;
+    background-color: #CDC9A5;
+    
+}
+
+footer{
+    width: 750px;
+    height: 50px ;
+    background-color: black;
+    text-decoration: none;
+    color: white; 
+}
+
+section#banner{
+    width: 750px;
+    height: 250px;
+    float: left;
+    background-color: teal;
+}
+
+
+
+aside#left {
+    width: 150px;
+    height: 400px;
+    float: left;
+    background-color: #CDC9A5;
+    font-weight: bold;
+    
+    
+}
+
+#premios {
+    margin: 0;
+    padding: 2rem 1rem;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+article{
+    width: 500px;
+    height: 400px;
+    float: left;
+    background-color: #CDC9A5;
+    margin: 0px;
+    
+    }
+
+
+
+#argentina{
+    width: 100%;
+    margin-top: 10px;
+}
+
+li{
+    margin-left: 15px;
+    display: flex;
+    float: left;
+    margin-top: 10px;
+    list-style: none;
+    text-align: center;
+    
+}
+
+#pfooter{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+#redes{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+text-align: center;
+font-size: 32px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+     }
+
+     
+#dimaria{
+    margin-top: -35px;
+    float: left;
+    height: 100%;
+    
+    margin-right: 15px;
+}
+
+
+#estiloResultados  {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#seccion {
+    display: block;
+    width: 105px;
+    height: 40px;
+    background-color: black;
+    margin-left: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    line-height: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 8px;
+    
+}
+
+#seccion:hover {
+    background-color: #002347;
+}
+
+
+#titlegg {
+    padding-right: 150px;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#copas {
+    
+    width: 75%;
+    margin-left:80px;
+
+}
+
+#articlegg {
+    width: 600px;
+}
+
+#articlind {
+    width: 600px;
+    
+}
+
+#recuerdo {
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+}
+
+#ilustracionCopa {
+    height: 70%;
+    margin-top: 70px;
+    margin-left: 5px;
+    border-radius: 12px;
+   
+}
+
+#videoyou  {
+    margin-left: 15px;
+}
+
+#imgafa {
+
+    height: 80%;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
+#entrenamientoAfa {
+    height: 95%;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+#afashop {
+    
+    height: 50%;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+#compras , #compras2 {
+    color: #635f5e;
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+#camisetasBox {
+    margin-top: 10px;
+    height: 160px;
+    
+}
+
+#descripcion {
+    width: 150px;
+    height: 300px;
+    padding: 4px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+#descripcion a {
+    text-decoration: none;
+    color:black
+}
+
+.inline-box {   
+    float: left;
+    margin-top: 15px;
+}
+.Boxes {
+    float: right; 
+    padding-left: 8px;   
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+
+#formulario {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+}
+
+input {
+	width: 150px;
+	height: 25px;
+    border-radius: 8px;
+    margin-left: 8px;
+    
+}
+
+textarea {
+    border-radius: 8px;
+    margin-left: 8px;
+}
+
+#enviarBoton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #002347;
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+#enviarBoton:hover {
+    background-color: #4a89c7;
+    color: black;
+}
+
+#form {
+	padding-top: 15px;
+	
+}
+
+
+#flechas {
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: white;
+    padding: 5px 8px 5px 8px;
+    background-color: #002347;
+    border-radius: 8px;
+    margin-left: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+#flechasconjunto a:hover{
+    background-color: #4188cf;
+    color: black;
+}
+
+#flechasconjunto {
+    float: right;
+    margin-right: 5px;
+    width: 250px;
+    height: 45px;
+    
+}
+
+#descripcion a:hover {
+    text-decoration: underline;
+    color:rgb(72, 72, 245);
+}
+
+.crsl-item img {
+    width: 550px;
+}
+
+#main-img {
+ width: 90%;
+ margin-left: 8px;
+ margin-bottom: 3px;
+ border: 2px solid rgb(165, 152, 152);
+ border-radius: 3px;
+}
+
+#sec-img {
+    height: 15%;
+    margin-left: 8px;
+    border: 2px solid rgb(165, 152, 152);
+ border-radius: 3px;
+    
+}
+
+#modoOscuro {
+    float: right;
+    position: relative;
+    bottom: 30px;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    line-height: 35px;
+}
+
+#modoOscuro:hover {
+    background-color: #5e5e5e;
+}
+
+
+@media all and (min-width: 600px) and (max-width:1024px){
+
+
+    #modoOscuro {
+        float: right;
+        position: relative;
+        bottom: 30px;
+        width: 100px;
+        height: 35px;
+        
+    }
+
+    #afashop {
+    
+        width: 98%;
+        
+    }
+
+
+#imgafa {
+        height: 70%;
+        margin-left: 8px;
+        border-radius: 5px;
+    }
+
+body{
+    width: 580px; 
+    
+}
+
+header{
+    width: 580px;
+    height: 280px;
+}
+
+#ilustracionCopa {
+    display: none;
+}
+nav{
+    width: 580px;
+    height: 200px ;
+    background: linear-gradient(teal,#CDC9A5);
+    
+}
+
+
+main{
+    width: 580px;
+    height: 530px ;
+    background-color: #CDC9A5;
+    
+}
+
+footer{
+    width: 580px;
+    height: 50px ;
+    background-color: black;
+    text-decoration: none;
+    color: white; 
+}
+
+section#banner{
+    width: 580px;
+    height: 300px;
+    float: left;
+    background-color: teal;
+}
+
+section#logo{
+    width: 285px;
+    height: 80px;
+    position: relative;
+    left: 5px;
+    background-color: #CDC9A5;
+}
+
+ section#login{
+    width: 290px;
+    height: 80px;
+    float: right;
+    background-color: black;
+ }
+
+
+
+aside#left {
+    display: none;
+    
+}
+
+#premios {
+    margin: 0;
+    padding: 2rem 1rem;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+article{
+    width: 95%;
+    float: left;
+    background-color: #CDC9A5;
+    margin: 0px;
+    
+    
+}
+
+
+#argentina{
+    position: relative;
+    left: 25px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+li{
+    margin-left: 15px;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    list-style: none;
+    
+    
+}
+
+#pfooter{
+    font-size: 15px;
+    
+}
+
+#redes{
+    font-size: 15px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+     }
+
+     
+#dimaria{
+    float: left;
+    height: 90%;
+    
+    margin-right: 15px;
+}
+
+#logo a{
+    width: 85%;
+    height: 85%;
+    margin-left: 3px;
+    line-height: 70px;
+    font-size: 18px;
+    margin-top: 5px;
+    
+    
+}
+
+#seccion {
+    float: left;
+    
+}
+
+h1 {
+    margin-left: 90px;
+}
+
+#estiloResultados  {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+#articlind {
+    width: 90%;
+    height: 50%;
+    
+    
+}
+
+#articlegg {
+    width: 400px;
+    height: 400px;
+    display: flexbox;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+#videoyou {
+    width: 90%;
+    height: 70%;
+    
+    
+}
+.mainIndumentaria {
+    height: 450px;
+
+}
+#copas {
+    width: 88%;
+    margin-left:40px;
+    margin-top: 0px;
+    
+}
+#main-img {
+    width: 100%;
+    margin-left: 5px;
+   
+}
+   
+   #sec-img {
+       height: 18%;
+       margin-left: 5px;
+   }
+   #compras , #compras2 {
+    margin-left: 15px;
+}
+#maingala {
+    height: 450px;
+}
+
+
+
+}
+
+@media all and (max-width: 599px){
+
+    #afashop {
+        height: 32%;
+        
+    }
+
+    #compras , #compras2 {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    #imgafa {
+
+        height: 65%;
+        margin-left: 20px;
+        border-radius: 5px;
+    }
+
+
+    body{
+        width: 480px; 
+        
+    }
+    
+    header{
+        width: 480px;
+        
+    }
+    
+    nav{
+        width: 480px;
+        height: 80px ;
+        background-color:teal ;
+        
+    }
+    
+    main{
+        width: 480px;
+        height: 50px ;
+        background-color: #CDC9A5;
+        
+    }
+    
+    
+    
+    section#banner{
+        width: 480px;
+        height: 250px;
+        float: left;
+        background-color: teal;
+    }
+    
+    section#logo{
+        width: 50%;
+        height: 80px;
+        position: relative;
+        left: 5px;
+        background: linear-gradient(teal,#CDC9A5);
+    }
+    
+     section#login{
+        width: 50%;
+        height: 80px;
+        float: right;
+        background: linear-gradient(teal,#CDC9A5);
+     }
+    
+    aside#left {
+        width: 150px;
+        height: 400px;
+        float: left;
+        background-color: #CDC9A5;
+        font-weight: bold;
+        
+    }
+    
+    #premios {
+        margin: 0;
+        padding: 2rem 1rem;
+        display: table-cell;
+        vertical-align: middle;
+    
+    }
+    
+    article{
+        width: 100%;
+        background-color: #CDC9A5;
+        margin: 0px;
+        
+    }
+    
+    
+    
+    #argentina{
+        position: relative;
+        left: 25px;
+        top: 25px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    li{
+        margin-left: 15px;
+        text-align: center;
+        float: left;
+        margin-top: 10px;
+        list-style: none;
+        
+    }
+    
+    #pfooter{
+        font-size: 15px;
+        
+    }
+    
+    #redes{
+        font-size: 15px;
+    }
+    
+    
+    
+    h3{
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+         }
+    
+         
+    #dimaria{
+        display: none;
+        float: left;
+        height: 100%;
+        width: 30%;
+        margin-right: 15px;
+    }
+    
+    
+    #logo a{
+        width: 85%;
+        height: 85%;
+        margin-left: 3px;
+        line-height: 70px;
+        font-size: 15px;
+        margin-top: 5px;
+        
+    }
+    
+    
+    #login a{
+        width: 85%;
+        height: 85%;
+        margin-left: 3px;
+        line-height: 70px;
+        font-size: 15px;
+        margin-top: 5px;
+        
+        
+    }
+    h1{
+        font-size: 32px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+    #estiloResultados  {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    footer{
+        width: 480px;
+        height: 80px ;
+        background-color: black;
+        text-decoration: none;
+        color: white; 
+        
+    }
+
+    #footer {
+        height: 450px ;
+        background-color: black;
+    }
+
+    #seccion {
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        
+    }
+
+    .mainIndumentaria {
+        height: 750px;
+        
+    }
+
+
+    .inline-box {
+        margin-right: 30px;
+    }
+
+    #articlind {
+        width: 90%;
+        
+        
+        
+    }
+    
+    #maingala {
+        height: 450px;
+    }
+    #articlegg {
+        width: 400px;
+        height: 400px;
+        display: flexbox;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    
+    #videoyou {
+        width: 90%;
+        height: 70%;
+        float: left;
+        
+    }
+
+    #ilustracionCopa {
+        display: none;
+    }
+
+    #left {
+        display: none;
+    }
+
+    #copas {
+        width: 80%;
+        margin-left:10px;
+       
+    
+    }
+
+    
+    }

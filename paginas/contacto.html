@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html id="hold">
+<head>
+    <meta charset="utf-8">
+    <LINK REL=StyleSheet href="../css/estilo.css" TYPE="text/css" MEDIA=screen>
+    <title>Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+  
+</head>
+
+<body>
+    
+<div id="contenedor">
+<header>
+    <section id="banner">
+        <h1 id="titlegg">Contactate con nosotros</h1>
+        <a id="modoOscuro" href="#" onclick="oscuridadcont()" >Modo Oscuro</a>
+        <img id="copas" src="..\img/copas.jpg"/>
+
+       
+    </section>
+   
+
+    
+
+</header>
+<nav>
+    <li><a id="seccion" href="../index.html">Inicio</a></li>
+    <li><a id="seccion" href="../paginas/indumentaria.html" >Indumentaria</a></li>
+    <li><a id="seccion" href="../paginas/galardones.html" >Galardones</a></li>
+    <li><a id="seccion" href="../paginas/entrenamientos.html" >Entrenamientos</a></li>
+    <li><a id="seccion" href="../paginas/contacto.html">Contacto</a></li>
+</nav>
+
+
+<main id="maingala">
+
+
+<aside id="left"> 
+    
+</aside>
+
+    <article id="articlegg">
+        <form id="formulario">
+            <ul>
+                <div id="form">
+                    <li>Nombre: <input  id="nombre" type="text" name="user_name" placeholder=" Nombre y Apellido"  pattern="([a-zA-Z]+\s){1,2,3}([a-zA-Z]+)"></li>
+                    <li>Email: <input id="mail" type="email" name="user_mail"  placeholder=" Ingresa tu Email"  ></li>
+                    <li>Edad: <input id="edad" type="number" min="18" max="85" placeholder=" Edad" name="user_age" ></li>
+                    <li>Fecha de envio:  <input id="fecha" type="date" name="date" ></li>
+                    <li>Consultas: <textarea id="consulta" name="consulta" rows="5"></textarea></li>
+                    </br>
+                    <li><input id="enviarBoton" onclick= 'validarForm ()'type="submit"></li>
+                </div>
+            </ul>
+
+        </form>
+    </article>
+    
+
+</main>
+<footer>
+    <div id="pfooter"><p>No te olvides de seguirnos en nuestras redes!</p></div>
+    <li><a id="redes" href="https://valperformance.com/" target="_blank">Instagram</a></li>
+    <li><a id="redes" href="https://valperformance.com/" target="_blank">Facebook</a></li>
+    <li><a id="redes" href="https://valperformance.com/" target="_blank">YouTube</a></li>
+    <li><a id="redes" href="https://valperformance.com/" target="_blank">Twitter</a></li>
+
+</footer>
+
+<script src="../js/integrador1.js"></script>
+<script src="../js/oscuridadCont.js"></script>
+</div>
+</body>
+
+</html>
